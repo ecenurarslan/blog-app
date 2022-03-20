@@ -1,0 +1,8 @@
+.LoginForm{
+    width: 50%;
+    background: red !important;
+}
+
+.LoginFormContainer{
+    position: relative;
+}

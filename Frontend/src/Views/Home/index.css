@@ -1,0 +1,35 @@
+.containerPagination{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+.page{
+border: grey solid 0.5px;
+background-color: #cecece;
+width:20px;
+text-align: center;
+margin-left: 10px;
+color:black;
+}
+.page:hover{
+    color:dodgerblue;
+    background-color: #dfdfdf;
+    cursor:pointer;
+}
+.activePage{
+    background-color:cornflowerblue;
+}
+.activePage:hover{
+    background-color:#dfdfdf;
+}
+.linkpage{
+    color:black;
+    text-decoration: none;
+}
+.linkpage:hover{
+    color:dodgerblue;
+}
